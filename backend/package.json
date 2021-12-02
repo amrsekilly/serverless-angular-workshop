@@ -15,10 +15,13 @@
   ],
   "dependencies": {
     "@sanity/base": "^2.22.3",
+    "@sanity/block-content-to-html": "^2.0.0",
+    "@sanity/client": "^2.22.3",
     "@sanity/core": "^2.22.3",
     "@sanity/default-layout": "^2.22.4",
     "@sanity/default-login": "^2.22.3",
     "@sanity/desk-tool": "^2.22.3",
+    "@sanity/image-url": "^1.0.1",
     "@sanity/vision": "^2.22.3",
     "prop-types": "^15.7",
     "react": "^17.0",
