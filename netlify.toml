@@ -2,6 +2,7 @@
 [build]
   command = "ng build && ng run musing-bhaskara-14779f:serverless:production"
   publish = "dist/musing-bhaskara-14779f/browser"
+  functions = "netlify/functions"
 
 [[plugins]]
   package = "@netlify/plugin-angular-universal"
