@@ -1,14 +1,7 @@
+# ./netlify.toml
 [build]
-  command = "ng build"
-  functions = "netlify/functions"
-  publish = "dist/serverless-angular-workshop"
+  command = "ng build && ng run {projectName}:serverless:production"
+  publish = "dist/{projectName}/browser"
 
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-
-[dev]
-  command = "npm run start"
-  functions = "netlify/functions"
-
+[[plugins]]
+  package = "@netlify/plugin-angular-universal"
