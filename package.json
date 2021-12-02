@@ -24,6 +24,8 @@
     "@angular/platform-server": "~13.0.0",
     "@angular/router": "~13.0.0",
     "@nguniversal/express-engine": "^13.0.0",
+    "@sanity/client": "^2.22.3",
+    "@sanity/image-url": "^1.0.1",
     "express": "^4.15.2",
     "rxjs": "~7.4.0",
     "tslib": "^2.3.0",
